@@ -1,0 +1,22 @@
+/* ul:first-of-type li:nth-child(3){
+  font-size: 12px;
+}
+ ul:nth-of-type(2) li:nth-child(1) */
+
+ button{
+    background-color: red;
+    color: white;
+    box-shadow: 10px 10px 10px green;
+    padding: 5px 20 px;
+ }
+ /* button:hover{
+    background-color: blue;
+ } */
+ /* button:active{
+    box-shadow: 0 0 0 ;
+    
+ } */
+
+ button:focus{
+    box-shadow: 10px 5px 10px  black;
+ }

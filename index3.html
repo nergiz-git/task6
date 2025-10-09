@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="az">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>  
+  </head>
+  <body>
+    <h1>Universitet Paneli</h1>
+    <nav>
+      <ul>
+        <li><a href="#elanlar">Elanlar</a></li>
+        <li><a href="#ders">Dərs Cədvəli</a></li>
+        <li><a href="#form">Müraciət Formu</a></li>
+        <li><a href="#fag">FAQ</a></li>
+      </ul>
+    </nav>
+    <section id="elanlar">
+      <h2>Son Elanlar</h2>
+      <article>
+      <h3>Yeni Semestr Başladı!</h3>
+      <p>1 oktyabr tarixində yeni semestr dərsləri başlayır</p>
+      </article>
+      <article>
+      <h3>Kitabxana Yenilənməsi</h3>
+      <p>Kitabxana bu həftə texniki səbəbdən bağlı olaq</p>
+      </article>
+    </section>
+    <section id="ders">
+      <h2>Dərs Cədvəli</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Gün</th>
+            <th>Dərs</th>
+            <th>Vaxt</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Bazar Ertəsi</td>
+            <td>Proqramlaşdırma</td>
+            <td>09:00-10:30</td>
+          </tr>
+          <tr>
+            <td>Çərşənbə</td>
+            <td>Riyaziyyat</td>
+            <td>10:45-12:15</td>
+          </tr>
+          <tr>
+            <td>Cümə axşamı</td>
+            <td>İngilis dili</td>
+            <td>13:00-14:30</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="form">
+      <h2>Müraciət Formu</h2>
+      <form>
+        <label for="name">Ad Soyad:</label><br />
+        <input type="text" id="name" /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" /><br /><br />
+
+        <label for="front">Kurs Seç:</label><br />
+        <select id="kurs">
+          <option value="front">Frontend</option></select><br /><br />
+          <option value="front">Backend</option></select><br /><br />
+
+        <input type="checkbox" id="agree" required />
+        <label for="agree">Qaydalarla razıyam</label><br /><br />
+
+        <input type="submit" value="Göndər">
+      </form>
+    </section>
+    <section id="fag">
+      <h2>Tez-tez Verilən Suallar</h2>
+      <details>
+        <summary>Dərslər nə vaxt başlayır</summary>
+        <p>1 oktyabr tarixində</p>
+      </details>
+      <details>
+        <summary>İmtahanlar harda keçirilir</summary>
+        <p>Əsas binanın ikinci mərtəbəsindədir</p>
+      </details>
+    </section>
+    <footer>
+      <p>&copy; 2025 Universitet Portalı</p>
+    </footer>
+  </body>
+</html>
